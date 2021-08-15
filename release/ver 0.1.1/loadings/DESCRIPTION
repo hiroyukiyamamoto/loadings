@@ -1,0 +1,11 @@
+Package: loadings
+Type: Package
+Title: Statistical hypothesis testing of loadings in multivariate analysis
+Version: 0.1.1
+Author: Hiroyuki Yamamoto
+Maintainer: Hiroyuki Yamamoto <h.yama2396@gmail.com>
+Description: This package provides functions for computing loading 
+and its statistical hypothesis testing in principal component analysis and partial least squares.
+License: LGPL-3
+Encoding: UTF-8
+LazyData: true
