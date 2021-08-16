@@ -3,7 +3,7 @@ Statistical hypothesis testing of loadings in multivariate analysis.
 
 **loadings**  provides functions for computing loading and its statistical hypothesis testing in principal component analysis and partial least squares.
 
-- Principal component (PC) loading can be calculated from the result of the "prcomp" function. (The loadings function in **stats** can usually be applied only to the "princomp" function.) We can also calculate the *p*-value by statistical hypothesis testing for PC loading [1].  
+- Principal component (PC) loading can be calculated from the result of the "prcomp" function. (The "loadings" function in **stats** can usually be applied only to the "princomp" function.) We can also calculate the *p*-value by statistical hypothesis testing for PC loading [1].  
 
 - Partial Least Squares (PLS) [2] (also named as Naive PLS [3]) can be computed by "pls_svd" finction in loadings package. PLS loading and *p*-value by statistical hypothesis testing can be computed. PLS loading can also be computed from the result of the "pls_eigen" function in **chemometrics**.  
 
