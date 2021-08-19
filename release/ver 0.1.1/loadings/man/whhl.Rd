@@ -1,12 +1,12 @@
-\name{pls_svd}
-\alias{pls_svd}
+\name{whhl}
+\alias{whhl}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Partial least squares}
+\title{Metabolome analysis of liver samples from rabbits with hyperlipidemia.}
 \description{
-This function  performs partial least squares. In this function, data matrix for explanatory variable is automatically scaled to zero mean and unit variance (i.e. autoscaling) for each variables.
+This is metabolome data from liver samples of normal, hyperlipidemic, and statin-treated rabbits measured by capillary electrophoresis time-of-flight mass spectrometry. The data matrix contains 9 samples (3 samples in each groups) and 168 metabolites.
 }
 \usage{
-pls_svd(X,Y)
+data(whhl)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,30 +17,11 @@ pls_svd(X,Y)
 	Dummy matrix that include group information 0,1 in each culumns.
   }
 }
-\details{
-This function is wrapper function of "pls_rog" fucntion that the smoothing parameter kappa=0.
-}
-\value{
-P : A matrix with PLS loading for explanatory variable in each column
-
-T : A matrix with PLS score for explanatory variable in each column
-
-Q : A matrix with PLS loading for response variable in each column
-
-U : A matrix with PLS score for response variable in each column
-}
 \references{
-Barker, M. and Rayens, W. (2003) Partial Least Squares for Discrimination. Journal of Chemometrics, 17, 166-173.
+Ooga, T., Sato, H., Nagashima, A., Sasaki, K., Tomita, M., Soga T. and Ohashi, Y. (2011) Metabolomic Anatomy of Animal Model Revealing Homeostatic Imbalances in Dyslipidemia. Y. Mol. BioSyst.,7, 1217-23.
 }
-\author{
-Hiroyuki Yamamoto
-}
-\examples{
-data(whhl)
 
-pls <- pls_svd(X,Y)
-}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ pls }
+\keyword{ metabolome data }
 

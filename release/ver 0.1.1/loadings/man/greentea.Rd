@@ -1,46 +1,27 @@
-\name{pls_svd}
-\alias{pls_svd}
+\name{greentea}
+\alias{greentea}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Partial least squares}
+\title{Metabolome analysis of Japanese green tea}
 \description{
-This function  performs partial least squares. In this function, data matrix for explanatory variable is automatically scaled to zero mean and unit variance (i.e. autoscaling) for each variables.
+This includes metabolome data of Japanese green tea measured by gas chromatgraphy mass spectrometry. The data matrix contains 30 samples and 225 metabolites.
 }
 \usage{
-pls_svd(X,Y)
+data(greentea)
 }
 %- maybe also 'usage' for other objects documented here.
-\arguments{
-  \item{X}{
-	Data matrix of explanatory variables that include variables in each columns.
-  }
-  \item{Y}{
-	Dummy matrix that include group information 0,1 in each culumns.
-  }
-}
-\details{
-This function is wrapper function of "pls_rog" fucntion that the smoothing parameter kappa=0.
-}
-\value{
-P : A matrix with PLS loading for explanatory variable in each column
+\format{
+  X : Data matrix that include metabolites in each columns.
 
-T : A matrix with PLS score for explanatory variable in each column
+  Y : Dummy matrix that include group information 0,1 in each culumns.
 
-Q : A matrix with PLS loading for response variable in each column
+  y : Ranking of taste in competitive exhibition.
+}
+\source{
+Statistics in Microsoft Excel ( http://prime.psc.riken.jp/compms/others/main.html#Statistics )
 
-U : A matrix with PLS score for response variable in each column
-}
-\references{
-Barker, M. and Rayens, W. (2003) Partial Least Squares for Discrimination. Journal of Chemometrics, 17, 166-173.
-}
-\author{
-Hiroyuki Yamamoto
-}
-\examples{
-data(whhl)
-
-pls <- pls_svd(X,Y)
+Pongsuwan W., Fukusaki E., Bamba T., Yonetani T., Yamahara A.T., Kobayashi A. Prediction of Japanese Green Tea Ranking by Gas Chromatography/Mass Spectrometry-Based Hydrophilic Metabolite Fingerprinting. J. Agric. Food Chem. 2007;55:231-236.
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ pls }
+\keyword{ metabolome data }
 

@@ -1,46 +1,29 @@
-\name{pls_svd}
-\alias{pls_svd}
+\name{turnover}
+\alias{turnover}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Partial least squares}
+\title{Metabolomic Turnover analysis of the yeast culture mediums}
 \description{
-This function  performs partial least squares. In this function, data matrix for explanatory variable is automatically scaled to zero mean and unit variance (i.e. autoscaling) for each variables.
+This includes differential isotopomer ratio from metabolomic turnover analysis of yeast cultures by gas chromatgraphy mass spectrometry. The data matrix contains 11 samping time for three groups of different yeast strains and culture condition (33 samples total) and 60 peaks.
 }
 \usage{
-pls_svd(X,Y)
+data(turnover)
 }
 %- maybe also 'usage' for other objects documented here.
-\arguments{
-  \item{X}{
-	Data matrix of explanatory variables that include variables in each columns.
-  }
-  \item{Y}{
-	Dummy matrix that include group information 0,1 in each culumns.
-  }
-}
-\details{
-This function is wrapper function of "pls_rog" fucntion that the smoothing parameter kappa=0.
-}
-\value{
-P : A matrix with PLS loading for explanatory variable in each column
+\format{
 
-T : A matrix with PLS score for explanatory variable in each column
+	X : Data matrix of explanatory variables that include variables in each columns.
 
-Q : A matrix with PLS loading for response variable in each column
+	Y : Dummy matrix that include group information 0,1 in each culumns.
 
-U : A matrix with PLS score for response variable in each column
 }
+
 \references{
-Barker, M. and Rayens, W. (2003) Partial Least Squares for Discrimination. Journal of Chemometrics, 17, 166-173.
-}
-\author{
-Hiroyuki Yamamoto
+Nakayama Y., Tamada Y., Tsugawa H., Bamba T., Fukusaki E. Novel Strategy for Non-Targeted Isotope-Assisted Metabolomics by Means of Metabolic Turnover and Multivariate Analysis. Metabolites. 2014;4:722-739.
 }
 \examples{
-data(whhl)
-
-pls <- pls_svd(X,Y)
+data(turnover)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ pls }
+\keyword{ metabolome data }
 
