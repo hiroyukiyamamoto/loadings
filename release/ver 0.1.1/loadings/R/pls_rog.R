@@ -1,4 +1,4 @@
-pls_rog <- function(X,Y, kappa=0.999){
+pls_rog <- function(X, Y, D, kappa=0.999){
   
   # penalized matrix
   P <- NULL
@@ -7,10 +7,6 @@ pls_rog <- function(X,Y, kappa=0.999){
     P <- cbind(P,Y[,i]/p[i])
   }
   P <- t(P)
-  
-  # differential matrix
-  g <- ncol(Y)
-  D <- diff(diag(1,g))
   
   # autoscaling
   X <- scale(X)

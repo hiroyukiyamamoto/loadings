@@ -18,7 +18,7 @@ pls_rog(X,Y,kappa)
 	Dummy matrix that include group information 0,1 in each culumns.
   }
   \item{kappa}{
-	The smoothing parameter (default = 0.999).
+	The smoothing parameter (default : kappa = 0.999).
   }
 }
 \details{
