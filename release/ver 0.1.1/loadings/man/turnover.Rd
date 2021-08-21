@@ -10,6 +10,7 @@ data(turnover)
 }
 %- maybe also 'usage' for other objects documented here.
 \format{
+The list object "turnover" contains the following elements:
 
 	X : Data matrix of explanatory variables that include variables in each columns.
 

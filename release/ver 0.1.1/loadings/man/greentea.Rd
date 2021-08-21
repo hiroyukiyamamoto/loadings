@@ -10,6 +10,8 @@ data(greentea)
 }
 %- maybe also 'usage' for other objects documented here.
 \format{
+The list object "greentea" contains the following elements:
+
   X : Data matrix that include metabolites in each columns.
 
   Y : Dummy matrix that include group information 0,1 in each culumns.
