@@ -4,6 +4,7 @@ library(loadings)
 
 ### PCA
 data(fasting)
+X <- fasting$X
 
 pca <- prcomp(X, scale=TRUE)
 
@@ -13,6 +14,8 @@ pca$loading$p.value
 
 ### PLS
 data(whhl)
+X <- whhl$X
+Y <- whhl$Y
 
 pls <- pls_svd(X,Y)
 # library(chemometrics)
@@ -24,8 +27,11 @@ pls$loading$p.value
 
 ### PLS-ROG
 data(whhl)
+X <- whhl$X
+Y <- whhl$Y
+D <- whhl$D
 
-plsrog <- pls_rog(X,Y,0.999)
+plsrog <- pls_rog(X,Y,D,0.999)
 
 plsrog <- pls_loading(plsrog)
 plsrog$loading$R
@@ -33,11 +39,25 @@ plsrog$loading$p.value
 
 ### OS-PCA
 data(turnover)
+X <- turnover$X
+D <- turnover$D
 
-plsrog <- os_pca(X,Y,0.999)
+ospca <- os_pca(X,D,0.999)
 
-plsrog <- pls_loading(plsrog)
-plsrog$loading$R
-plsrog$loading$p.value
+ospca <- ospca_loading(ospca)
+ospca$loading$R
+ospca$loading$p.value
 
+### OS-PCA2
+data(greentea)
+X <- greentea$X
+Y <- greentea$Y
+D <- greentea$D
+M <- greentea$M
+
+ospca <- os_pca(X,D,0.999,M)
+
+ospca <- ospca_loading(ospca)
+ospca$loading$R
+ospca$loading$p.value
 
