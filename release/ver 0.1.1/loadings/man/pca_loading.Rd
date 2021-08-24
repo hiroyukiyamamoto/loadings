@@ -27,6 +27,8 @@ The PC loading and the p-value by statistical hypothesis testing is added to the
   R : PC loading (Correlation coefficient between PC score and each variables in data matrix.)
 
   p.value : p-value of PC loading
+
+  }
 }
 \references{
 Yamamoto H., Fujimori T., Sato H., Ishikawa G., Kami K., Ohashi Y. (2014). "Statistical hypothesis testing of factor loading in principal component analysis and its application to metabolite set enrichment analysis". BMC Bioinformatics, (2014) 15(1):51.
