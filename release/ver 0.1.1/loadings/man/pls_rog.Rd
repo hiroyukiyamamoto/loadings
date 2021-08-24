@@ -7,7 +7,7 @@ This function performs partial least squares rank order of groups (PLS-ROG).
 In this function, data matrix is automatically scaled to zero mean and unit variance (i.e. autoscaling) for each variables.
 }
 \usage{
-pls_rog(X,Y,kappa)
+pls_rog(X,Y,D,kappa)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -16,6 +16,9 @@ pls_rog(X,Y,kappa)
   }
   \item{Y}{
 	Dummy matrix that include group information 0,1 in each culumns.
+  }
+  \item{D}{
+	Differential matrix.
   }
   \item{kappa}{
 	The smoothing parameter (default : kappa = 0.999).
@@ -42,9 +45,9 @@ Hiroyuki Yamamoto
 \examples{
 data(whhl)
 
-pls <- pls_rog(X,Y)
+plsrog <- pls_rog(X,Y,D)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ pca/msea }
+\keyword{ partial least squares rank oder of groups }
 

@@ -42,5 +42,5 @@ pls <- pls_svd(X,Y)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ pls }
+\keyword{ partial least squares }
 

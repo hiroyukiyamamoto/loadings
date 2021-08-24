@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1629765525047.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2870449619",
+    "id" : "165B9714",
+    "lastKnownWriteTime" : 1629765654,
+    "last_content_update" : 1629765654342,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/man/pls_rog.Rd",
+    "project_path" : "man/pls_rog.Rd",
+    "properties" : {
+        "cursorPosition" : "47,6",
+        "scrollLine" : "21"
+    },
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

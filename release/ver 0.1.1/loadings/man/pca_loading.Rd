@@ -14,15 +14,19 @@ pca_loading(pca)
 \arguments{
   \item{pca}{
 	 The return object of the "prcomp" function.
-}
+  }
 }
 \details{
 The PC loading and the p-value by statistical hypothesis testing is added to the pca object returned by the "prcomp" function.
 }
 \value{
-loadings$R : PC loading
+  \item{loading}{
 
-loadings$p.value : p-value of PC loading
+  The following variables (R and p.value) are included in the loading object.
+
+  R : PC loading (Correlation coefficient between PC score and each variables in data matrix.)
+
+  p.value : p-value of PC loading
 }
 \references{
 Yamamoto H., Fujimori T., Sato H., Ishikawa G., Kami K., Ohashi Y. (2014). "Statistical hypothesis testing of factor loading in principal component analysis and its application to metabolite set enrichment analysis". BMC Bioinformatics, (2014) 15(1):51.
@@ -41,5 +45,5 @@ pca$loading$p.value # p-value
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ principal component analysis/principal cpmponent loading }
+\keyword{ principal component analysis / loading }
 

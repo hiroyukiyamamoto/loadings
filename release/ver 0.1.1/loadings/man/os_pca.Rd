@@ -17,11 +17,11 @@ os_pca(X,D,kappa,M)
   \item{D}{
 	Differential matrix.
   }
-  \item{M}{
-	Averaging matrix.
-  }
   \item{kappa}{
-	The smoothing parameter kappa.
+	The smoothing parameter kappa (default : 0.999).
+  }
+  \item{M}{
+	Averaging matrix for repeated data (default : Identity matrix).
   }
 }
 \details{
@@ -43,11 +43,25 @@ Yamamoto H., Nakayama Y., Tsugawa H. (2021) OS-PCA: Orthogonal Smoothed Principa
 Hiroyuki Yamamoto
 }
 \examples{
-data(GreenTea)
+# metabolic turnover data
+data(turnover)
 
-ospca <- os_pca(X,D,kappa,M)
+X <- turnover$X
+D <- turnover$D
+
+ospca <- os_pca(X,D,0.999)
+
+# metabolome data
+data(greentea)
+
+X <- greentea$X
+D <- greentea$D
+M <- greentea$M
+
+ospca <- os_pca(X,D,0.999,M)
+
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ pca/msea }
+\keyword{ orthogonal smoothed principal component analysis }
 

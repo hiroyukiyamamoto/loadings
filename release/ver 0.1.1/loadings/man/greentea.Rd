@@ -16,6 +16,10 @@ The list object "greentea" contains the following elements:
 
   Y : Dummy matrix that include group information 0,1 in each culumns.
 
+  D : Differential matrix.
+
+  M : Averaging matrix for repeated data.
+
   y : Ranking of taste in competitive exhibition.
 }
 \source{

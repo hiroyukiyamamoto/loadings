@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1629760755039.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B6B417A8",
+    "lastKnownWriteTime" : 1629613288,
+    "last_content_update" : 1629613288,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/demo.R",
+    "project_path" : "demo.R",
+    "properties" : {
+        "cursorPosition" : "39,0",
+        "scrollLine" : "31"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

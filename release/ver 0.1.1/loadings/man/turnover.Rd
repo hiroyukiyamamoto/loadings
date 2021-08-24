@@ -16,6 +16,8 @@ The list object "turnover" contains the following elements:
 
 	Y : Dummy matrix that include group information 0,1 in each culumns.
 
+  D : Differential matrix.
+
 }
 
 \references{

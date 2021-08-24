@@ -12,23 +12,33 @@ pls_loading(pls)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{pls}{
-P : A matrix with PLS loading for explanatory variable in each column
 
-T : A matrix with PLS score for explanatory variable in each column
+  The following variables (P,T,Q and U) are included in the pls object.
 
-Q : A matrix with PLS loading for response variable in each column
+  P : A matrix with PLS loading for explanatory variable in each column
 
-U : A matrix with PLS score for response variable in each column
+  T : A matrix with PLS score for explanatory variable in each column
 
-}
+  Q : A matrix with PLS loading for response variable in each column
+
+  U : A matrix with PLS score for response variable in each column
+
+  }
 }
 \details{
 The PLS loading and the p-value by statistical hypothesis testing is added to the pls object returned by the "pls_svd" function in this pacjage or "pls_eigen" function in chemometrics package.
 }
 \value{
-loadings$R : PLS loading for explanatory variable
+  \item{loadings}{
 
-loadings$p.value : p-value of PLS loading for explanatory variable
+  The following variables (R and p.value) are included in the loadings object.
+
+  R : PLS loading (Correlation coefficient between PLS score of response variable and each variables in data matrix.)
+
+  p.value : p-value of PLS loading
+
+  }
+
 }
 \references{
 Yamamoto, H. (2017) PLS-ROG: Partial least squares with rank order of groups., Journal of Chemometrics, 31(3) (2017) e2883.
@@ -48,5 +58,5 @@ pls$loading$p.value
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ pca/msea }
+\keyword{ partial least squares / loading }
 
