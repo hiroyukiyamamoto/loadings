@@ -20,9 +20,8 @@ pca_loading(pca)
 The PC loading and the p-value by statistical hypothesis testing is added to the pca object returned by the "prcomp" function.
 }
 \value{
-  \item{loading}{
 
-  The following variables (R and p.value) are included in the loading object.
+  The return value is a list object that contains the following elements:
 
   R : PC loading (Correlation coefficient between PC score and each variables in data matrix.)
 

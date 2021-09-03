@@ -18,7 +18,7 @@ os_pca(X,D,kappa,M)
 	Differential matrix.
   }
   \item{kappa}{
-	The smoothing parameter kappa (default : 0.999).
+	The smoothing parameter (default : 0.999).
   }
   \item{M}{
 	Averaging matrix for repeated data (default : Identity matrix).
@@ -28,6 +28,8 @@ os_pca(X,D,kappa,M)
 The kappa represents the degree of smoothing. The value of kappa increases, the strength of the smoothing increases.
 }
 \value{
+The return value is a list object that contains the following elements:
+
 P : A matrix with OS-PC loading in each column.
 
 T : A matrix with OS-PC score in each column

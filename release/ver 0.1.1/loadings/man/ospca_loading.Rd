@@ -4,7 +4,6 @@
 \title{Orthogonal smoothed principal component loading}
 \description{
 This function computes orthogonals smoothed principal component (OS-PC) loading from the result of the "os_pca" function.
-In this function, data matrix is should be scaled to zero mean and unit variance (i.e. autoscaling) for each variables.
 This is also wrapper function of pls_loading function.
 }
 \usage{
@@ -30,15 +29,13 @@ ospca_loading(ospca)
 The OS-PC loading and the p-value by statistical hypothesis testing is added to the ospca object returned by the "os-pca" function.
 }
 \value{
-  \item{loadings}{
 
-  The following variables (R and p.value) are included in the loadings object.
+  The return value is a list object that contains the following elements:
 
   R : OS-PCA loading (Correlation coefficient between OS-PC score of auxiliary variable and each variables in data matrix.)
 
   p.value : p-value of OS-PCA loading
 
-  }
 }
 \references{
 Yamamoto H., Nakayama Y., Tsugawa H. (2021) OS-PCA: Orthogonal Smoothed Principal Component Analysis Applied to Metabolome Data, Metabolites, 11(3):149.

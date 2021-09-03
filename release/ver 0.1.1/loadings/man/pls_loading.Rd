@@ -29,15 +29,12 @@ pls_loading(pls)
 The PLS loading and the p-value by statistical hypothesis testing is added to the pls object returned by the "pls_svd" function in this pacjage or "pls_eigen" function in chemometrics package.
 }
 \value{
-  \item{loadings}{
 
-  The following variables (R and p.value) are included in the loadings object.
+  The return value is a list object that contains the following elements:
 
   R : PLS loading (Correlation coefficient between PLS score of response variable and each variables in data matrix.)
 
   p.value : p-value of PLS loading
-
-  }
 
 }
 \references{

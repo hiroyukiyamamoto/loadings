@@ -28,6 +28,8 @@ pls_rog(X,Y,D,kappa)
 The kappa represents the degree of smoothing. The value of kappa increases, the strength of the smoothing increases.
 }
 \value{
+The return value is a list object that contains the following elements:
+
 P : A matrix with PLS loading for explanatory variable in each column
 
 T : A matrix with PLS score for explanatory variable in each column
