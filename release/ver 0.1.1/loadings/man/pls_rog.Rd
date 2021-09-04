@@ -15,7 +15,7 @@ pls_rog(X,Y,D,kappa)
 	Data matrix of explanatory variables that include variables in each columns.
   }
   \item{Y}{
-	Dummy matrix that include group information 0,1 in each culumns.
+	Dummy matrix that include group information 0,1 in each columns.
   }
   \item{D}{
 	Differential matrix.
@@ -46,6 +46,9 @@ Hiroyuki Yamamoto
 }
 \examples{
 data(whhl)
+X <- whhl$X
+Y <- whhl$Y
+D <- whhl$D
 
 plsrog <- pls_rog(X,Y,D)
 }

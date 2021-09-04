@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630720532877.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EA5CC370",
+    "lastKnownWriteTime" : 1630720953,
+    "last_content_update" : 1630720953,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/cran-comments.md",
+    "project_path" : "cran-comments.md",
+    "properties" : {
+        "cursorPosition" : "10,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 17,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

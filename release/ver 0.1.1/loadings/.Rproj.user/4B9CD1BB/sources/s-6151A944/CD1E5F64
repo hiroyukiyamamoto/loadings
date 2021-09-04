@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630721802463.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1753966871",
+    "id" : "CD1E5F64",
+    "lastKnownWriteTime" : 1630651074,
+    "last_content_update" : 1630651074,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/R/pls_rog.R",
+    "project_path" : "R/pls_rog.R",
+    "properties" : {
+    },
+    "relative_order" : 17,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

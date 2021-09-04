@@ -30,13 +30,17 @@ The kappa represents the degree of smoothing. The value of kappa increases, the 
 \value{
 The return value is a list object that contains the following elements:
 
-P : A matrix with OS-PC loading in each column.
+P : A matrix with OS-PC loading in each column
 
 T : A matrix with OS-PC score in each column
 
-Q : A matrix with OS-PC loading for auxiliary variable in each column.
+MT : A matrix with averaging OS-PC score for repeated data in each column
+(If not for repeated data, the matrix MT equals to the matrix T)
+
+Q : A matrix with OS-PC loading for auxiliary variable in each column
 
 U : A matrix with OS-PC score for auxiliary variable in each column
+
 }
 \references{
 Yamamoto H., Nakayama Y., Tsugawa H. (2021) OS-PCA: Orthogonal Smoothed Principal Component Analysis Applied to Metabolome Data, Metabolites, 11(3):149.
@@ -60,7 +64,7 @@ X <- greentea$X
 D <- greentea$D
 M <- greentea$M
 
-ospca <- os_pca(X,D,0.999,M)
+ospca <- os_pca(X,D,0.1,M)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

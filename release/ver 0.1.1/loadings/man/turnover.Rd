@@ -14,9 +14,9 @@ The list object "turnover" contains the following elements:
 
 	X : Data matrix of explanatory variables that include variables in each columns.
 
-	Y : Dummy matrix that include group information 0,1 in each culumns.
+	Y : Dummy matrix that include group information 0,1 in each columns.
 
-  D : Differential matrix.
+  D : Differential matrix (Second order).
 
 }
 

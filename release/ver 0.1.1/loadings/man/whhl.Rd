@@ -12,15 +12,15 @@ data(whhl)
 \arguments{
 The list object "whhl" contains the following elements:
 
-  \item{X}{
-	Data matrix of explanatory variables that include variables in each columns.
-  }
-  \item{Y}{
-	Dummy matrix that include group information 0,1 in each culumns.
-  }
+  X : Data matrix of explanatory variables that include variables in each columns.
+
+  Y : Dummy matrix that include group information 0,1 in each columns.
 }
 \references{
 Ooga, T., Sato, H., Nagashima, A., Sasaki, K., Tomita, M., Soga T. and Ohashi, Y. (2011) Metabolomic Anatomy of Animal Model Revealing Homeostatic Imbalances in Dyslipidemia. Y. Mol. BioSyst.,7, 1217-23.
+}
+\examples{
+data(whhl)
 }
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the

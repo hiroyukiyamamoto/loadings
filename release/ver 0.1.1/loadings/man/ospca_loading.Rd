@@ -15,11 +15,15 @@ ospca_loading(ospca)
 
   The following variables (P,T,Q and U) are included in the ospca object.
 
-	P : A matrix with OS-PC loading in each column.
+
+  P : A matrix with OS-PC loading in each column
 
   T : A matrix with OS-PC score in each column
 
-  Q : A matrix with OS-PC loading for auxiliary variable in each column.
+  MT : A matrix with averaging OS-PC score for repeated data in each column
+  (If not for repeated data, the matrix MT equals to the matrix T)
+
+  Q : A matrix with OS-PC loading for auxiliary variable in each column
 
   U : A matrix with OS-PC score for auxiliary variable in each column
 
@@ -62,7 +66,7 @@ X <- greentea$X
 D <- greentea$D
 M <- greentea$M
 
-ospca <- os_pca(X,D,0.999,M)
+ospca <- os_pca(X,D,0.1,M)
 
 ospca <- ospca_loading(ospca)
 ospca$loading$R

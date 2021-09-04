@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630722993655.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "33958BCD",
+    "lastKnownWriteTime" : 1630731530,
+    "last_content_update" : 1630731530239,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/R/ospca_loading.R",
+    "project_path" : "R/ospca_loading.R",
+    "properties" : {
+        "cursorPosition" : "8,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 19,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -14,9 +14,9 @@ The list object "greentea" contains the following elements:
 
   X : Data matrix that include metabolites in each columns.
 
-  Y : Dummy matrix that include group information 0,1 in each culumns.
+  Y : Dummy matrix that include group information 0,1 in each columns.
 
-  D : Differential matrix.
+  D : Differential matrix (Second order).
 
   M : Averaging matrix for repeated data.
 

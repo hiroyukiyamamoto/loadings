@@ -14,7 +14,7 @@ pls_svd(X,Y)
 	Data matrix of explanatory variables that include variables in each columns.
   }
   \item{Y}{
-	Dummy matrix that include group information 0,1 in each culumns.
+	Dummy matrix that include group information 0,1 in each columns.
   }
 }
 \details{
@@ -39,6 +39,8 @@ Hiroyuki Yamamoto
 }
 \examples{
 data(whhl)
+X <- whhl$X
+Y <- whhl$Y
 
 pls <- pls_svd(X,Y)
 }

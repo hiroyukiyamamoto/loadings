@@ -26,7 +26,7 @@ pls_loading(pls)
   }
 }
 \details{
-The PLS loading and the p-value by statistical hypothesis testing is added to the pls object returned by the "pls_svd" function in this pacjage or "pls_eigen" function in chemometrics package.
+The PLS loading and the p-value by statistical hypothesis testing is added to the pls object returned by the "pls_svd" function in this package or "pls_eigen" function in chemometrics package.
 }
 \value{
 
@@ -45,6 +45,8 @@ Hiroyuki Yamamoto
 }
 \examples{
 data(whhl)
+X <- whhl$X
+Y <- whhl$Y
 
 pls <- pls_svd(X,Y)
 

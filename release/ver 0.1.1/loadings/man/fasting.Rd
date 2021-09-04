@@ -14,7 +14,7 @@ The list object "fasting" contains the following elements:
 
   X : 	Data matrix that include metabolites in each columns.
 
-  Y :   Dummy matrix that include group information 0,1 in each culumns.
+  Y :   Dummy matrix that include group information 0,1 in each columns.
 }
 \source{
 Yamamoto H., Fujimori T., Sato H., Ishikawa G., Kami K., Ohashi Y. (2014). "Statistical hypothesis testing of factor loading in principal component analysis and its application to metabolite set enrichment analysis". BMC Bioinformatics, (2014) 15(1):51.
