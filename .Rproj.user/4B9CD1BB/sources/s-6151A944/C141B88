@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630713491652.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C141B88",
+    "lastKnownWriteTime" : 1630717295,
+    "last_content_update" : 1630717295215,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/man/pls_svd.Rd",
+    "project_path" : "man/pls_svd.Rd",
+    "properties" : {
+        "cursorPosition" : "40,0",
+        "scrollLine" : "18"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

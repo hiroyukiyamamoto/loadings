@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630722176736.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "54AE5BA0",
+    "lastKnownWriteTime" : 1630732265,
+    "last_content_update" : 1630732265867,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/R/os_pca.R",
+    "project_path" : "R/os_pca.R",
+    "properties" : {
+        "cursorPosition" : "21,15",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 18,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

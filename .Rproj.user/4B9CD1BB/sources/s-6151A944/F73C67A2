@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630716213159.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F73C67A2",
+    "lastKnownWriteTime" : 1630716227,
+    "last_content_update" : 1630716227955,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/R/pls_loading.R",
+    "project_path" : "R/pls_loading.R",
+    "properties" : {
+        "cursorPosition" : "2,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 14,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

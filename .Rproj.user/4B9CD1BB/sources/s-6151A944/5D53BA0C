@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630713572651.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5D53BA0C",
+    "lastKnownWriteTime" : 1630716325,
+    "last_content_update" : 1630716325593,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/man/whhl.Rd",
+    "project_path" : "man/whhl.Rd",
+    "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

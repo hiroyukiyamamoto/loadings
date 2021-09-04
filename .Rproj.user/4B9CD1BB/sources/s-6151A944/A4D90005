@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630713364154.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A4D90005",
+    "lastKnownWriteTime" : 1630732008,
+    "last_content_update" : 1630732008982,
+    "path" : "~/R/loadings-main/release/ver 0.1.1/loadings/man/ospca_loading.Rd",
+    "project_path" : "man/ospca_loading.Rd",
+    "properties" : {
+        "cursorPosition" : "51,14",
+        "scrollLine" : "46"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
