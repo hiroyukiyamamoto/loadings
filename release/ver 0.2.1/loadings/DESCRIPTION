@@ -1,0 +1,10 @@
+Package: loadings
+Type: Package
+Title: Loadings for Principal Component Analysis and Partial Least Squares
+Version: 0.1.1
+Author: Hiroyuki Yamamoto
+Maintainer: Hiroyuki Yamamoto <h.yama2396@gmail.com>
+Description: This package provides functions for computing principal component and partial least squares loading and its statistical hypothesis testing.
+License: LGPL-3
+Encoding: UTF-8
+LazyData: true
