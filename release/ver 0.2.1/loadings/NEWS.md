@@ -1,3 +1,8 @@
+## version 0.2.1
+
+- Updated in August 31th, 2022.
+- Added multiset PLS and PLS-ROG.
+
 ## version 0.1.1
 
 - Released in August 31th, 2021.
