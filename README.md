@@ -11,11 +11,14 @@ Statistical hypothesis testing of loadings in multivariate analysis.
 
 - OS-PCA (orthogonal smoothed principal component analysis), which is a suitable PCA when the samples are ordered, can be calculated. Their loading and *p*-values can also be calculated.
 
+- Multiset PLS and Multiset PLS-ROG [5] integrate multi-omics data. Their loading and *p*-values can also be calculated.
+
 **References**  
-[1] Yamamoto H. et al., BMC Bioinformatics, (2014) 15(1):51.  
-[2] Barker M. et al., Journal of Chemometrics, 17(3) (2003) 166-173.    
-[3] Yamamoto H., Journal of Chemometrics, 31(3) (2017) e2883.  
-[4] Yamamoto H. et al., Metabolites, 11(3) (2021) 149.
+[1] Yamamoto H. et al., BMC Bioinformatics, (2014) 15(1):51. doi: https://doi.org/10.1186/1471-2105-15-51  
+[2] Barker M. et al., Journal of Chemometrics, 17(3) (2003) 166-173. doi: https://doi.org/10.1002/cem.785  
+[3] Yamamoto H., Journal of Chemometrics, 31(3) (2017) e2883. doi: https://doi.org/10.1002/cem.2883  
+[4] Yamamoto H. et al., Metabolites, 11(3) (2021) 149. doi: https://doi.org/10.3390/metabo11030149  
+[5] Yamamoto H., bioRxiv (2022). doi: https://doi.org/10.1101/2022.08.30.505949  
 
 ## Installation
 
