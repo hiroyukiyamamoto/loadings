@@ -1,3 +1,9 @@
+## version 0.3.1
+
+- Updated in February 19th, 2023.
+- Added one-sided kernel PCA.
+- Some bug fixes (pls_rog.R, multipls_rog.R).
+
 ## version 0.2.1
 
 - Updated in September 2nd, 2022.
