@@ -52,6 +52,7 @@ multipls_rog <- function (X,Y,tau,D,kappa = 0.999)
   index1 <- 1
   for(i in 1:length(Z)){
     W[[i]] <- w_multiplsrog[index1:(index1+ncol(Z[[i]])-1),lambda_index]
+    colnames(W[[i]]) <- NULL
     index1 <- index1+ncol(Z[[i]])
   }
   Wx <- W[-length(W)]
