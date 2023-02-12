@@ -2,7 +2,7 @@
 
 - Updated in February 19th, 2023.
 - Added one-sided kernel PCA.
-- Some bug fixes (pca_loading.R, pls_rog.R, multipls_rog.R).
+- Some bug fixes (pca_loading.R, pls_rog.R, multipls_rog.R) and correction of full-width Greek letters (whhl.RData).
 
 ## version 0.2.1
 
