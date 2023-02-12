@@ -13,7 +13,7 @@ Statistical hypothesis testing of loadings in multivariate analysis.
 
 - Multiset PLS and Multiset PLS-ROG [5] integrate multi-omics data. Their loading and *p*-values can also be calculated.
 
-- One-sided kernel PCA, which is an nonlinear extention of PCA, can be calculated. Their loading and *p*-values can also be calculated.
+- One-sided kernel PCA, which is a partially nonlinear extention of PCA by kernel method, can be calculated. Their loading and *p*-values can also be calculated.
 
 **References**  
 [1] Yamamoto H. et al., BMC Bioinformatics, (2014) 15(1):51. doi: https://doi.org/10.1186/1471-2105-15-51  
