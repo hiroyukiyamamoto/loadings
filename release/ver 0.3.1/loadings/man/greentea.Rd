@@ -1,0 +1,33 @@
+\name{greentea}
+\alias{greentea}
+%- Also NEED an '\alias' for EACH other topic documented here.
+\title{Metabolome analysis of Japanese green tea}
+\description{
+This includes metabolome data of Japanese green tea measured by gas chromatgraphy mass spectrometry. The data matrix contains 30 samples and 225 metabolites.
+}
+\usage{
+data(greentea)
+}
+%- maybe also 'usage' for other objects documented here.
+\format{
+The list object "greentea" contains the following elements:
+
+  X : Data matrix that include metabolites in each columns.
+
+  Y : Dummy matrix that include group information 0,1 in each columns.
+
+  D : Differential matrix (Second order).
+
+  M : Averaging matrix for repeated data.
+
+  y : Ranking of taste in competitive exhibition.
+}
+\source{
+Statistics in Microsoft Excel ( http://prime.psc.riken.jp/compms/others/main.html#Statistics )
+
+Pongsuwan W., Fukusaki E., Bamba T., Yonetani T., Yamahara A.T., Kobayashi A. Prediction of Japanese Green Tea Ranking by Gas Chromatography/Mass Spectrometry-Based Hydrophilic Metabolite Fingerprinting. J. Agric. Food Chem. 2007;55:231-236.
+}
+% Add one or more standard keywords, see file 'KEYWORDS' in the
+% R documentation directory.
+\keyword{ datasets }
+

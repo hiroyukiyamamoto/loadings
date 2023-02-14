@@ -1,0 +1,12 @@
+Package: loadings
+Type: Package
+Title: Loadings for Principal Component Analysis and Partial Least Squares
+Version: 0.3.1
+Author: Hiroyuki Yamamoto
+Maintainer: Hiroyuki Yamamoto <h.yama2396@gmail.com>
+Description: Computing statistical hypothesis testing for principal component (PC) loading (Yamamoto, H. et al. (2014)), orthogonal smoothed PC (OS-PC) loading (Yamamoto, H. et al. (2021) <doi:10.3390/metabo11030149>), one-sided kernel PC loading (Yamamoto, H. (2023) <doi:10.51094/jxiv.262>) , partial least squares (PLS) loading (Yamamoto, H. (2017) <doi:10.1002/cem.2883>), PLS with rank order of groups (PLS-ROG) loading (Yamamoto, H. (2017), multiset PLS and PLS-ROG loading (Yamamoto, H. (2022) <doi:10.1101/2022.08.30.505949>).
+License: LGPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    geigen
