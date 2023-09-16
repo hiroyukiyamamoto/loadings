@@ -21,7 +21,7 @@ pls_da(X,Y)
   }
 }
 \details{
-This function calculates PLS-DA. Use the 'pls_svd' function for PLS.
+This function calculates PLS-DA. For PLS, use the 'pls_svd' function for PLS.
 }
 \value{
 The return value is a list object that contains the following elements:
