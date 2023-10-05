@@ -29,19 +29,15 @@ RCCA-DA is equivalent to Regularized Fisher discriminant analysis, theoretically
 \value{
 The return value is a list object that contains the following elements:
 
-Wx : A matrix with RCCA-DA weight for explanatory variable in each column
-
 P: A matrix containing the RCCA-DA loadings for each explanatory variable in the columns, before transformation.
 
 T : A matrix with RCCA-DA score for explanatory variable in each column
 
-Wy : A matrix with RCCA-DA weight for explanatory variable in each column
-
-S : A matrix with RCCA-DA score for response variable in each column
-
 }
 \references{
 Yamamoto, H. et al., Canonical correlation analysis for multivariate regression and its application to metabolic fingerprinting", Biochem. Eng. Journal, 40 (2008) 199-204.
+
+Yamamoto, H. et al., Dimensionality reduction for metabolome data using PCA, PLS, OPLS, and RFDA with differential penalties to latent variables", Chemom. Intell. Lab. Syst., 98 (2009)
 }
 \author{
 Hiroyuki Yamamoto
@@ -51,7 +47,7 @@ data(whhl)
 X <- whhl$X$liver
 Y <- whhl$Y
 
-rcca <- rcca_da(X,Y,0.5)
+rcca <- rcca_da(X,Y,0.5,2)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
