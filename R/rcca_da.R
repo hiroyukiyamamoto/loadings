@@ -41,7 +41,7 @@ rcca_da <- function(X, Y, tau, k){
   }
 
   rcca_da <- list()
-  rcca_da$Wx <- Wx
+  #rcca_da$Wx <- Wx
   rcca_da$P <- P
   rcca_da$T <- T
   #rcca_da$Wy <- Wy
