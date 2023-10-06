@@ -1,4 +1,4 @@
-rcca_da <- function(X, Y, tau, k){
+rcca_da <- function(X, Y, lambda, k){
 
   # autoscaling
   X <- scale(X)
@@ -11,7 +11,7 @@ rcca_da <- function(X, Y, tau, k){
   for(i in 1:k){
 
     # Cholesky decomposition
-    R <- chol((1-tau)*(1/N)*t(X)%*%X+tau*diag(1,ncol(X)))
+    R <- chol((1-lambda)*(1/N)*t(X)%*%X+lambda*diag(1,ncol(X)))
 
     # singular value decomposition
     USVx <- svd(t(Y)%*%X%*%solve(R)*(1/N))

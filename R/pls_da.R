@@ -38,11 +38,11 @@ pls_da <- function(X, Y, k){
   }
 
   plsda <- list()
-  plsda$Wx <- Wx
+  #plsda$Wx <- Wx
   plsda$P <- P
   plsda$T <- T
-  plsda$Wy <- Wy
-  plsda$S <- U
+  #plsda$Wy <- Wy
+  #plsda$S <- U
 
   return(plsda)
 
