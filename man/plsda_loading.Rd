@@ -10,19 +10,13 @@ plsda_loading(plsda)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{plsrog}{
+  \item{plsda}{
 
-  The following variables (Wx,P,T,Wy and S) are included in the plsda object.
-
-  Wx : A matrix with PLS-DA weight for explanatory variable in each column
+  The following variables (P,T) are included in the plsda object.
 
 P: A matrix containing the PLS-DA loadings for each explanatory variable in the columns, before transformation.
 
 T : A matrix with PLS-DA score for explanatory variable in each column
-
-Wy : A matrix with PLS-DA weight for explanatory variable in each column
-
-S : A matrix with PLS score for response variable in each column
 
   }
 }

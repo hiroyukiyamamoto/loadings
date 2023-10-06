@@ -6,7 +6,7 @@
 This function performs partial least squares discriminant analysis (PLS-DA). In this function, data matrix for explanatory variable is automatically scaled to zero mean and unit variance (i.e. autoscaling) for each variables.
 }
 \usage{
-pls_da(X,Y)
+pls_da(X,Y,k)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -26,15 +26,9 @@ This function calculates PLS-DA. For PLS, use the 'pls_svd' function for PLS.
 \value{
 The return value is a list object that contains the following elements:
 
-Wx : A matrix with PLS-DA weight for explanatory variable in each column
-
 P: A matrix containing the PLS-DA loadings for each explanatory variable in the columns, before transformation.
 
 T : A matrix with PLS-DA score for explanatory variable in each column
-
-Wy : A matrix with PLS-DA weight for explanatory variable in each column
-
-S : A matrix with PLS score for response variable in each column
 
 }
 \references{
@@ -48,7 +42,7 @@ data(whhl)
 X <- whhl$X$liver
 Y <- whhl$Y
 
-plsda <- pls_da(X,Y)
+plsda <- pls_da(X,Y,2)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
