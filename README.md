@@ -1,4 +1,4 @@
-<img src="sticker.png" alt="loadings sticker" width="150"/>
+<img src="sticker.png" alt="loadings sticker" width="200"/>
 
 # loadings
 Statistical hypothesis testing of loadings in multivariate analysis.
