@@ -17,6 +17,8 @@ The list object "turnover" contains the following elements:
 	Y : Dummy matrix that include group information 0,1 in each columns.
 
   D : Differential matrix (Second order).
+  
+  annotation :  Compound annotation for metabolome data.
 
 }
 
