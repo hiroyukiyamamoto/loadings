@@ -1,6 +1,7 @@
+# loadings
+
 <img src="sticker.png" alt="loadings sticker" width="250"/>
 
-# loadings
 Statistical hypothesis testing of loadings in multivariate analysis.
 
 **loadings**  provides functions for computing loading and its statistical hypothesis testing in principal component analysis and partial least squares.
