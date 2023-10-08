@@ -48,7 +48,7 @@ Hiroyuki Yamamoto
 data(whhl)
 X <- whhl$X$liver
 Y <- whhl$Y
-rcca <- rcca_da(X,Y,0.5)
+rcca <- rcca_da(X,Y,0.5,2)
 
 rcca <- rcca_loading(rcca)
 
