@@ -21,15 +21,8 @@ The list object "whhl" contains the following elements:
   tau : Example of strength parameter matrix used in mutliset PLS or multiset PLS-ROG. All weights were set as the same value of 0.1.
 
 }
-\references{
+\source{
 Ooga, T., Sato, H., Nagashima, A., Sasaki, K., Tomita, M., Soga T. and Ohashi, Y. (2011) Metabolomic Anatomy of Animal Model Revealing Homeostatic Imbalances in Dyslipidemia. Y. Mol. BioSyst.,7, 1217-23.
-}
-\examples{
-data(whhl)
-
-liver <- whhl$X$liver
-
-
 }
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
