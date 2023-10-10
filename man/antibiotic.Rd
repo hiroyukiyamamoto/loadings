@@ -9,7 +9,7 @@ This is metagenome and metabolome data of antibiotic-treated mouse fecal samples
 data(antibiotic)
 }
 %- maybe also 'usage' for other objects documented here.
-\arguments{
+\format{
 The list object "antibiotic" contains the following elements:
 
   data$X$microbiome$dist: Weighted UniFrac distance matrix for the metagenome.
@@ -23,11 +23,8 @@ The list object "antibiotic" contains the following elements:
   annotation$metabolome : Compound annotation for metabolome data.
 
 }
-\references{
+\source{
 Y. Wakita, et al, Taxonomic classification for microbiome analysis, which correlates well with the metabolite milieu of the gut, BMC microbiology, 18:188 (2018)
-}
-\examples{
-data(antibiotic)
 }
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the

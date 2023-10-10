@@ -9,7 +9,7 @@ This is proteome and metabolome data of COVID-19 serum samples [B. Shen et al, C
 data(covid19)
 }
 %- maybe also 'usage' for other objects documented here.
-\arguments{
+\format{
 The list object "covid19" contains the following elements:
 
   X : List of data matrix that include samples in each rows and protein or metabolite in each columns for proteomics and metabolomics.
@@ -19,15 +19,12 @@ The list object "covid19" contains the following elements:
   D : Example of differential matrix used in PLS-ROG or multiset PLS-ROG.
 
   tau : Example of strength parameter matrix used in mutliset PLS or multiset PLS-ROG. All weights were set as the same value of 0.1.
-  
+
   K : List of kernel matrix by hyperbolic tangent kernel (scale=1, offset=1).
 
 }
-\references{
+\source{
 B. Shen, et al, Proteomic and Metabolomic Characterization of COVID-19 Patient Sera, Cell. 182 (2020) 59-72.e15.
-}
-\examples{
-data(covid19)
 }
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
