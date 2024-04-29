@@ -26,6 +26,8 @@ The unsupervised multiset PLS loading and the p-value by statistical hypothesis 
 \value{
 The return value is a list object that contains the following elements:
 
+Score : A list of matrix with Multiset PLS score for auxiliary variable in each column for each dataset
+
 R : A list of matrix with Unsupervised multiset PLS loadings in each column for each dataset
 
 p.value : A list of matrix with p-value of Unsupervised multiset PLS loading in each column for each dataset
