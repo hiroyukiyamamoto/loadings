@@ -1,4 +1,5 @@
-multipls_loading <- function(multipls){
+multipls_loading <- function(multipls) 
+{
   T <- multipls$T
   for (j in 1:length(T)) {
     t <- multipls$T[[j]]
@@ -6,28 +7,34 @@ multipls_loading <- function(multipls){
     Wx <- multipls$P[[j]]
     Wy <- multipls$Q
     tau <- multipls$tau
+    multiPLS_score <- NULL
     multiPLS_loading <- NULL
     p_multiPLS_loading <- NULL
     for (k in 1:nrow(t)) {
       index <- 1:length(multipls$T)
-      lambda0 <- NULL
+      lambda0 <- 0
       for (i in index[-j]) {
         u <- multipls$T[[i]]
-        lambda0 <- (tau[j, i] * stats::cov(t[, k], u[, k]))
-        lambda0 <- (lambda0 + tau[j, ncol(tau)] * stats::cov(s[, k], t[, k]))/(2 * as.numeric(t(Wx[, k]) %*% Wx[, k]))
+        lambda0 <- lambda0 + tau[j, i] * stats::cov(t[, k], u[, k])
       }
-      r0 <- NULL
+      lambda0 <- lambda0 + tau[j, ncol(tau)] * stats::cov(s[, k], t[, k])
+      lambda0 <- lambda0 / (2 * as.numeric(t(Wx[, k]) %*% Wx[, k]))
+      r0 <- 0
       for (i in index[-j]) {
         u <- multipls$T[[i]]
-        r0 <- tau[j, i] * sqrt(stats::var(u[, k]))
+        r0 <- r0 + tau[j, i]*u[, k]
       }
-      loading <- (Wx[, k] * 2 * lambda0)/(r0 + tau[j, ncol(tau)] * sqrt(stats::var(s[, k])))
+      r0 <- r0 + tau[j, ncol(tau)]*s[, k]
+      loading <- (Wx[, k] * 2 * lambda0)/sqrt(stats::var(r0))
       n <- nrow(t)
       z_fisher <- (1/2) * log((1 + abs(loading))/(1 - abs(loading)))
-      p <- 2 * stats::pnorm(z_fisher, 0, 1/sqrt(n - 3), lower.tail = FALSE)
+      p <- 2 * stats::pnorm(z_fisher, 0, 1/sqrt(n - 3), 
+                            lower.tail = FALSE)
+      multiPLS_score <- cbind(multiPLS_score, r0)
       multiPLS_loading <- cbind(multiPLS_loading, loading)
       p_multiPLS_loading <- cbind(p_multiPLS_loading, p)
     }
+    multipls$loading$Score[[j]] <- multiPLS_score
     multipls$loading$R[[j]] <- multiPLS_loading
     multipls$loading$p.value[[j]] <- p_multiPLS_loading
   }
