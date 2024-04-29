@@ -1,0 +1,17 @@
+Package: loadings
+Type: Package
+Title: Loadings for Principal Component Analysis and Partial Least
+        Squares
+Version: 0.4.1
+Author: Hiroyuki Yamamoto
+Maintainer: Hiroyuki Yamamoto <h.yama2396@gmail.com>
+Description: Computing statistical hypothesis testing for loading in principal component analysis (PCA) (Yamamoto, H. et al. (2014) <doi:10.1186/1471-2105-15-51>), orthogonal smoothed PCA (OS-PCA) (Yamamoto, H. et al. (2021) <doi:10.3390/metabo11030149>), one-sided kernel PCA (Yamamoto, H. (2023) <doi:10.51094/jxiv.262>), partial least squares (PLS) and PLS discriminant analysis (PLS-DA) (Yamamoto, H. et al. (2009) <doi:10.1016/j.chemolab.2009.05.006>), PLS with rank order of groups (PLS-ROG) (Yamamoto, H. (2017) <doi:10.1002/cem.2883>), regularized canonical correlation analysis discriminant analysis (RCCA-DA) (Yamamoto, H. et al. (2008) <doi:10.1016/j.bej.2007.12.009>), multiset PLS and PLS-ROG (Yamamoto, H. (2022) <doi:10.1101/2022.08.30.505949>).
+License: LGPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: geigen
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Packaged: 2023-10-08 07:29:51 UTC; hyama
+Repository: CRAN
+Date/Publication: 2023-10-08 19:10:04 UTC
