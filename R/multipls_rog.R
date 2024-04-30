@@ -11,7 +11,7 @@ multipls_rog <- function (X,Y,tau,D,kappa = 0.999)
     xx <- as.matrix(X[[i]])
     XX[i] <- list(scale(xx, scale = TRUE))
   }
-  Y <- scale(Y, scale = FALSE)
+  Y <- scale(Y, scale = TRUE)
   Z <- c(X = XX, Y = list(Y))
   N <- nrow(Z[[1]]) - 1
   ZZ <- NULL
