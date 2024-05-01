@@ -1,8 +1,0 @@
-[core]
-	bare = false
-	repositoryformatversion = 0
-	filemode = false
-	symlinks = false
-	ignorecase = true
-	precomposeunicode = false
-	logallrefupdates = true
