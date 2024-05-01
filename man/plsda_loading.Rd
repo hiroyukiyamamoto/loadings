@@ -42,7 +42,7 @@ Hiroyuki Yamamoto
 data(whhl)
 X <- whhl$X$liver
 Y <- whhl$Y
-plsda <- pls_da(X,Y)
+plsda <- pls_da(X,Y,2)
 
 plsda <- plsda_loading(plsda)
 

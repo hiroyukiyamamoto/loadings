@@ -6,13 +6,13 @@
 This function computes unsupervised multiset partial least squares loading from the result of the "unsv_multipls" function.
 }
 \usage{
-unsvmultipls_loading(unsvmultipls)
+unsvmultipls_loading(unsvmpls)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{unsvmultipls}{
+  \item{unsvmpls}{
 
-  The following variables (P,T) are included in the unsvmultipls object.
+  The following variables (P,T) are included in the unsvmpls object.
 
   P : A list of matrix with Multiset PLS coefficients in each column for each dataset
 
@@ -21,7 +21,7 @@ unsvmultipls_loading(unsvmultipls)
   }
 }
 \details{
-The unsupervised multiset PLS loading and the p-value by statistical hypothesis testing is added to the unsvmultipls object returned by the "unsv_multipls" function in this package.
+The unsupervised multiset PLS loading and the p-value by statistical hypothesis testing is added to the unsvmpls object returned by the "unsv_multipls" function in this package.
 }
 \value{
 The return value is a list object that contains the following elements:
@@ -46,9 +46,9 @@ tau <- rbind(c(0,1/4,1/4,1/4),c(1/4,0,1/4,1/4),c(1/4,1/4,0,1/4),c(1/4,1/4,1/4,0)
 
 unsvmpls <- unsv_multipls(X,tau)
 
-unsvmultipls <- unsvmultipls_loading(unsvmpls)
-unsvmultipls$loading$R
-unsvmultipls$loading$p.value
+unsvmpls <- unsvmultipls_loading(unsvmpls)
+unsvmpls$loading$R
+unsvmpls$loading$p.value
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
