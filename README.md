@@ -1,5 +1,8 @@
 # loadings
 
+[![CRAN status](https://www.r-pkg.org/badges/version/loadings)](https://cran.r-project.org/package=loadings)
+[![Support ? Suzuri Shop](https://img.shields.io/badge/Support-Suzuri%20Shop-blue)](https://suzuri.jp/EigenStudio/18417334/one-point-t-shirt/l/white)
+
 <img src="sticker.png" alt="loadings sticker" width="250"/>
 
 Statistical hypothesis testing of loadings in multivariate analysis.
@@ -47,4 +50,5 @@ The latest development version can be installed from GitHub:
 # install.packages("devtools")
 devtools::install_github("hiroyukiyamamoto/loadings")
 ```
+
 
