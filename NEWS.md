@@ -1,3 +1,10 @@
+## version 0.6.1
+
+- Updated in June 27th, 2026.
+- Removed the package dependency on `geigen` by updating generalized eigenvalue calculations (multipls_rog.R, generalized_eigen.R, one_kpca.R).
+- Updated one-sided KPCA to use a positive semidefinite approximation for indefinite kernel or similarity matrices.
+- Added microbiome-metabolome examples for one-sided KPCA.
+
 ## version 0.5.1
 
 - Updated in May 1th, 2024.
